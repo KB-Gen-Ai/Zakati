@@ -5,8 +5,8 @@ from fpdf import FPDF
 import os
 
 # Load API keys from environment variables
-METAL_API_KEY = st.secrets("METAL_API_KEY")
-EXCHANGE_API_KEY = st.secrets("EXCHANGE_API_KEY")
+METAL_API_KEY = st.secrets["METAL_API_KEY"]
+EXCHANGE_API_KEY = st.secrets["EXCHANGE_API_KEY"]
 
 # Function to fetch live gold/silver prices
 def get_metal_price(metal_type="XAU", currency="SAR"):
