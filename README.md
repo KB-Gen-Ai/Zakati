@@ -1,0 +1,2 @@
+# Zakati
+Zakat Calculator
